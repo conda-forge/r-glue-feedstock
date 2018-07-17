@@ -14,14 +14,16 @@ Summary: An implementation of interpreted string literals, inspired by Python's 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-glue-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-glue-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-glue-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-glue-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-glue-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-glue-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-glue-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-glue-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-glue-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-glue-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-glue-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-glue-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-glue/badges/version.svg)](https://anaconda.org/conda-forge/r-glue)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-glue/badges/downloads.svg)](https://anaconda.org/conda-forge/r-glue)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--glue-green.svg)](https://anaconda.org/conda-forge/r-glue) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-glue.svg)](https://anaconda.org/conda-forge/r-glue) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-glue.svg)](https://anaconda.org/conda-forge/r-glue) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-glue.svg)](https://anaconda.org/conda-forge/r-glue) |
 
 Installing r-glue
 =================
