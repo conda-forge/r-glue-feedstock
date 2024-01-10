@@ -1,4 +1,4 @@
-{% set version = "1.6.2" %}
+{% set version = "1.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/glue_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/glue/glue_{{ version }}.tar.gz
-  sha256: 9da518f12be584c90e75fe8e07f711ee3f6fc0d03d817f72c25dc0f66499fdbf
+  sha256: 1af51b51f52c1aeb3bfe9349f55896dd78b5542ffdd5654e432e4d646e4a86dc
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
